@@ -5,9 +5,9 @@ const div = document.querySelector('div')
 let images = []
 
 rightButton.addEventListener('click', () => {
-    // if (div.children.length > 0) {
-    //     div.removeChild(div.children[0])
-    // }
+    if (div.children.length > 3) {
+        div.removeChild(div.children[0])
+    }
 
     const img = document.createElement('img')
 
